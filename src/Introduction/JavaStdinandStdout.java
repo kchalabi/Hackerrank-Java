@@ -10,7 +10,6 @@ public class JavaStdinandStdout {
 		int b = scn.nextInt();
 		int c = scn.nextInt();
 		scn.close();
-		
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
