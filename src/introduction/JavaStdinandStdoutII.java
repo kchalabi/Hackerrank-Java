@@ -11,12 +11,10 @@ public class JavaStdinandStdoutII {
 		double b = scn.nextDouble();
 		scn.nextLine();
 		String c = scn.nextLine();
-		
+		scn.close();
 		System.out.println("String: " + c);
 		System.out.println("Double: " + b);
 		System.out.println("Int: " + a);
-		
-		scn.close();
 	}
 
 }
