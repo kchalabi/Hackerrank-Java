@@ -16,12 +16,16 @@ public class JavaLoopsII {
 				tab[i][j] = scn.nextInt();
 			}
 		}
+		
 		for(int i=0; i<t;i++) {
-			for(int j=0; j<3;j++) {
-				System.out.print(tab[i][j]+" ");
+			int temp = tab[i][0];
+			for(int j=0; j<tab[i][2];j++) {
+				temp += Math.pow(2, j) * tab[i][1];
+				System.out.print(temp +" ");
 			}
 			System.out.println();
 		}
+		
 		scn.close();
 	}
 
