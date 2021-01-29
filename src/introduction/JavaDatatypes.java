@@ -24,7 +24,6 @@ public class JavaDatatypes {
             {
                 System.out.println(sc.next()+" can't be fitted anywhere.");
             }
-            sc.close();
         }
     }
 
